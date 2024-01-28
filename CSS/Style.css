@@ -1,0 +1,210 @@
+*{
+    background-color: #101010;
+    color: #dfb36c;
+    direction: rtl;
+}
+* p{
+margin-right: -20px;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+    justify-content: center;
+}
+.Main{
+    padding-right: 70px;
+    padding-left: 70px;
+}
+.Home{
+    min-height: 100vh;
+}
+.Heder{
+    padding: 10px;
+    display: flex;
+    text-align: center;
+}
+.Heder .logo{
+    padding: 17px;
+    font-size: 35px;
+    font-weight: bold;    
+}
+.Heder .Likes{
+    margin-right: 220px;
+    list-style: none;
+    font-size: 23px;
+}
+.Heder .Likes li{
+    display: inline-block;
+}
+.Heder .Likes li a{
+    text-decoration: none;
+    margin-right: 25px;
+
+}
+.Heder .SCart{
+    margin-right: 220px;
+    padding: 17px;
+    font-size: 22px;
+    padding-right: 50px;
+}
+.Heder .SCart a{
+    font-size: 20px;
+    margin-right: 40px;
+}
+.Interface{
+    display: flex;
+    margin-top: 40px;
+}
+.Interface .Section1{
+    margin-top: 150px;
+    width: 700px;
+}
+.Interface .Section1 #h2{
+    color: white;
+}
+.Interface .Section1 p{
+    text-align: justify;
+    color: white;
+    font-size: 22px;
+    line-height: 32px;
+}
+.Interface .Section1 button{
+    margin-top: 20px;
+    width: 200px;
+    padding: 5px;
+    font-size: 28px;
+    color: #101010;
+   background-color: #FFD28E;
+}
+.Interface .Section1 label{
+    margin-right: 30px;
+    font-size: 28px;
+}
+.Interface .Section1 i{
+    margin-right: 30px;
+    font-size: 28px;
+}
+.Interface .Section2 .imgsex{
+    margin-right: 80px;
+    width: 520px;
+    height: auto;
+}
+.About{
+    display: flex;
+    margin-top: 200px;
+    min-height: 100vh;
+}
+.About .Sex_about{
+    width: 550px;
+}
+.About .Sex_about h1{
+    color: white;
+}
+.About .Sex_about h1 span{
+    color:#dfb36c;
+}
+.About .Sex_about p{
+    text-align: justify;
+    color:white;
+    font-size: 26px;
+    line-height: 30px;
+}
+.About .Sex_about button{
+    padding: 12px;
+    width: 220px;
+    color:dfb36c;
+    font-size: 30px;
+    border-color: #dfb36c;
+    margin-top: 20px;
+}
+.About .Sex_about button:hover{
+    color:black;
+    background-color: #dfb36c;
+}
+.About .Sex_img img{
+    margin-left: 280px;
+    width: 500px;
+    height: auto;
+    border-radius: 14%;
+    mask-border-outset: 50px;
+    box-shadow: -40px 40px 50px rgba(55, 0, 255, 0.1)
+}
+.Menu{
+    margin-top: 100px;
+    min-height: 100vh;
+}
+.Menu h1, p{
+    text-align: center;
+    color: white;
+}
+.Menu h1 span{
+    color: #eda42e;
+}
+.Menu p{
+    font-size: 20px;
+    line-height: 35px;
+}
+.Menu .container{
+    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(3, 0.25fr); /* تحديد عدد الأعمدة وعرضها */
+    grid-gap: 5px; /* تحديد المسافة بين العناصر */
+  }
+  .Menu .container .div{
+    display: flex;
+    padding: 20px; 
+ }
+  .Menu .container .div .div01 img{
+    width: 120px;
+    height: auto;
+    border-radius: 50%;
+  }
+  .Menu .container .div .div02 h2, p, label{
+    margin-right: 5px;
+    line-height: 15px;
+}
+.Menu #btn{
+    width: 220px;
+    padding: 15px;
+    font-size: 25px;
+    margin-top: 100px;
+    margin-right: 40%;
+    border-color: #d89b38;
+}
+.Menu #btn:hover{
+    background-color: #d89b38;
+    color: #101010;
+    border-color: #101010;
+}
+.Blog{
+    text-align: center;
+    margin-top: 100px;
+    min-height: 100vh;
+}
+.Blog h1{
+    margin-bottom: -10px;
+}
+.Blog p{
+    margin-top: 0px;
+    font-size: 22px;
+    line-height: 35px;
+}
+.Blog .container2{
+    margin-top: 60px;
+    justify-content: center;
+    text-align: right;
+    display: grid;
+    grid-template-columns: repeat(3, 0.25fr); /* تحديد عدد الأعمدة وعرضها */
+    grid-gap: 30px; /* تحديد المسافة بين العناصر */
+}
+.Blog .container2 img{
+    width: 350px;
+    height: auto;
+}
+.Blog .container2 a{
+    text-align: right;
+    text-decoration: none;
+    font-size: 23px;
+    color: azure;
+}
+
+
