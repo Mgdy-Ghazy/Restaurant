@@ -1,4 +1,4 @@
-@media screen and (min-width: 102px) {
+@media screen and (min-width: 801px) and (max-width: 1920px) {
     *{
         background-color: #101010;
         color: #dfb36c;
@@ -211,12 +211,15 @@
 @media screen and (max-width: 600px) {
     /* قواعد التنسيق للشاشات الصغيرة */
     *{
-        background-color: #f01515;
-        color: #dfb36c;
+        background-color: #1d1c1c;
+        color: #e69108;
         direction: rtl;
         width: 380px;
     }
     body{
+        /* width: 800px;
+        height: 600px;
+        margin: 0 auto; */
         font-family: 'Open Sans', sans-serif;
         justify-content: center;
     }
@@ -224,12 +227,9 @@
         padding-right: 20px;
         padding-left: 20px;
     }
-    .Home{
-        min-height: 100vh;
-    }
     .Heder{
         padding: 10px;
-        display: block;
+        
         text-align: right;
     }
     .Heder .logo{
@@ -352,9 +352,12 @@
         grid-gap: 5px; /* تحديد المسافة بين العناصر */
       }
       .Menu .container .div{
-      padding: 20px; 
+        padding: 15px;
+        display: flex;
+        margin-right: 0px;
      }
       .Menu .container .div .div01 img{
+        width: 150px;
         border-radius: 50%;
       }
       .Menu .container .div .div02 h2, #p2, label{
@@ -375,10 +378,12 @@
     .Blog{
         margin-top: 40px;
     }
+    
     .Blog p{
         text-align: justify;
         font-size: 22px;
         line-height: 35px;
+        margin-bottom: -40px;
     }
     .Blog .container2{
         margin-top: 60px;
@@ -389,16 +394,18 @@
         grid-gap: 50px; /* تحديد المسافة بين العناصر */
     }
     .Blog .container2 img{
-        width: 350px;
+        width: 100%;
         height: auto;
+        margin-top: 40px;
     }
     .Blog .container2 a{
         text-align: right;
         text-decoration: none;
         font-size: 23px;
         color: azure;
+        
     }
 }
-@media screen and (min-width: 601px) and (max-width: 1024px) {
+@media screen and (min-width: 601px) and (max-width: 800px) {
     /* قواعد التنسيق للشاشات المتوسطة */
 }
