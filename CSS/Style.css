@@ -427,7 +427,7 @@
         width: 380px;
     }
     body{
-        overflow: hidden;
+        overflow-x: hidden;
         /* width: 800px;
         height: 600px;
         margin: 0 auto; */
