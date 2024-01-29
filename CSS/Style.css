@@ -419,18 +419,17 @@
 
 @media screen and (max-width: 600px) {
     body{
-        width: 348px;
+        width: 360px;
         font-family: 'Open Sans', sans-serif;
     }
     .Main{
         overflow-x: hidden;
-        padding-right: 15px;
+        padding-right: 25px;
         padding-left: 15px;
         
     }
     .Heder{
         padding: 10px;
-        
         text-align: right;
     }
     .Heder .logo{
