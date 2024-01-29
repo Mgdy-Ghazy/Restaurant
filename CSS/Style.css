@@ -542,6 +542,7 @@
         box-shadow: -40px 40px 50px rgba(55, 0, 255, 0.1)
     }
     .Menu{
+        text-align: right;
         margin-top: 40px;
     }
     .Menu h1, p{
@@ -560,25 +561,27 @@
         display: block;
         grid-template-columns: repeat(3, 0.25fr); /* تحديد عدد الأعمدة وعرضها */
         grid-gap: 5px; /* تحديد المسافة بين العناصر */
-      }
-      .Menu .container .div{
-        padding: 15px;
+    }
+    .Menu .container .div{
+        padding: 10px;
         display: flex;
-        margin-right: 0px;
-     }
-      .Menu .container .div .div01 img{
-        width: 150px;
+    }
+    .Menu .container .div .div01 img{
+        width: 115px;
         border-radius: 50%;
-      }
-      .Menu .container .div .div02 h2, #p2, label{
-        margin-right: 20px;
+    }
+    .Menu .container .div .div02 h2, #p2, label{
+        margin-right: 10px;
         line-height: 15px;
     }
+    .Menu .container .div .div02 #p2{
+        font-size: 18px;
+    }
     .Menu #btn{
-        width: 200px;
-        padding: 10px;
-        font-size: 25px;
-        margin-top: 40px;
+        width: 150px;
+        padding: 8px;
+        font-size: 20px;
+        margin-top: 35px;
         margin-right: 20%;
         border-color: #d89b38;
     }
