@@ -420,9 +420,6 @@
 
 @media screen and (max-width: 600px) {
     /* قواعد التنسيق للشاشات الصغيرة */
-    html {
-        touch-action: manipulation; /* تمنع التكبير باللمس */
-      }
     *{
         background-color: #1d1c1c;
         color: #e69108;
@@ -430,9 +427,6 @@
         width: 380px;
     }
     body{
-        touch-action: none;
-        overflow: hidden;
-        pointer-events: none;
         /* width: 800px;
         height: 600px;
         margin: 0 auto; */
