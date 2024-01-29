@@ -421,7 +421,7 @@
 @media screen and (max-width: 600px) {
     /* قواعد التنسيق للشاشات الصغيرة */
     *{
-        background-color: #1d1c1c;
+        background-color: #b11717;
         color: #e69108;
         direction: rtl;
         width: 380px;
