@@ -1,4 +1,4 @@
-@media screen and (min-width: 1501px) and (max-width: 1920px) {
+@media screen and (min-width: 801px) and (max-width: 1920px) {
     *{
         background-color: #101010;
         color: #dfb36c;
@@ -211,7 +211,7 @@
 
 
 
-@media screen and (min-width: 601px) and (max-width: 1500px) {
+@media screen and (min-width: 601px) and (max-width: 800px) {
     *{
         background-color: #101010;
         color: #dfb36c;
@@ -222,11 +222,8 @@
         justify-content: center;
     }
     .Main{
-        padding-right: 70px;
-        padding-left: 70px;
-    }
-    .Home{
-        min-height: 100vh;
+        padding-right: 20px;
+        padding-left: 20px;
     }
     .Heder{
         padding: 10px;
@@ -234,7 +231,7 @@
         text-align: center;
     }
     .Heder .logo{
-        padding: 17px;
+        margin-right: 17px;
         font-size: 35px;
         font-weight: bold;    
     }
@@ -427,6 +424,9 @@
 
 @media screen and (max-width: 600px) {
     /* قواعد التنسيق للشاشات الصغيرة */
+    html {
+        touch-action: manipulation; /* تمنع التكبير باللمس */
+      }
     *{
         background-color: #1d1c1c;
         color: #e69108;
@@ -434,6 +434,9 @@
         width: 380px;
     }
     body{
+        touch-action: none;
+        overflow: hidden;
+        pointer-events: none;
         /* width: 800px;
         height: 600px;
         margin: 0 auto; */
