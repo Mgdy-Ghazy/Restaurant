@@ -220,11 +220,11 @@
         justify-content: center;
     }
     .Main{
-        /* padding-right: 70px;
-        padding-left: 70px; */
+        padding-right: 15px;
+        padding-left: 15px;
     }
     .Home{
-        /* min-height: 100vh; */
+        min-height: 100vh;
     }
     .Heder{
         padding: 10px;
