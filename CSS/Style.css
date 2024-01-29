@@ -419,13 +419,13 @@
 
 @media screen and (max-width: 600px) {
     body{
-        width: 300px;
+        width: 348px;
         font-family: 'Open Sans', sans-serif;
     }
     .Main{
         overflow-x: hidden;
-        padding-right: 5px;
-        padding-left: 5px;
+        padding-right: 15px;
+        padding-left: 15px;
         
     }
     .Heder{
@@ -462,25 +462,25 @@
         width: 700px;
     }
     .Interface .Section1 #h1{
-        font-size: 25px;
+        font-size: 19px;
     }
     .Interface .Section1 #h2{
         color: white;
-        font-size: 25px;
+        font-size: 19px;
     }
     .Interface .Section1 p{
         text-align: justify;
         color: white;
         font-size: 20px;
         line-height: 32px;
-        width: 410px;
+        width: 315px;
     }
     .Interface .Section1 button{
         white-space: pre-line;
         margin-top: 8px;
-        width: 170px;
+        width: 140px;
         padding: 5px;
-        font-size: 28px;
+        font-size: 20px;
         color: #101010;
        background-color: #FFD28E;
     }
@@ -492,11 +492,11 @@
     .Interface .Section1 label{
         margin-right: 10px;
         white-space: pre-line;
-        font-size: 28px;
+        font-size: 20px;
     }
     .Interface .Section1 i{
-        margin-right: 10px;
-        font-size: 28px;
+        margin-right: 5px;
+        font-size: 20px;
     }
     .Interface .Section2 .imgsex{
         margin-bottom: -10px;
