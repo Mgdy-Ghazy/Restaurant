@@ -1,19 +1,22 @@
+*{
+    background-color: #101010;
+    color: #dfb36c;
+    direction: rtl;
+}
+
+
+
+
+
+
 @media screen and (min-width: 1025px) {
-    *{
-        background-color: #101010;
-        color: #dfb36c;
-        direction: rtl;
-    }
     body{
+        /* overflow-x: hidden; */
         font-family: 'Open Sans', sans-serif;
-        justify-content: center;
     }
     .Main{
         padding-right: 70px;
         padding-left: 70px;
-    }
-    .Home{
-        min-height: 100vh;
     }
     .Heder{
         padding: 10px;
@@ -212,12 +215,8 @@
 
 
 @media screen and (min-width: 601px) and (max-width: 1024px) {
-    *{
-        background-color: #101010;
-        color: #dfb36c;
-        direction: rtl;
-    }
     body{
+        /* overflow-x: hidden; */
         font-family: 'Open Sans', sans-serif;
     }
     .Main{
@@ -418,25 +417,16 @@
 
 
 
-@media screen and (max-width: 400px) {
-    /* قواعد التنسيق للشاشات الصغيرة */
-    *{
-        background-color: #b11717;
-        color: #e69108;
-        direction: rtl;
-        width: 380px;
-    }
+@media screen and (max-width: 600px) {
     body{
-        overflow-x: hidden;
-        /* width: 800px;
-        height: 600px;
-        margin: 0 auto; */
+        width: 300px;
         font-family: 'Open Sans', sans-serif;
-        justify-content: center;
     }
     .Main{
-        padding-right: 20px;
-        padding-left: 20px;
+        overflow-x: hidden;
+        padding-right: 5px;
+        padding-left: 5px;
+        
     }
     .Heder{
         padding: 10px;
@@ -481,28 +471,36 @@
     .Interface .Section1 p{
         text-align: justify;
         color: white;
-        font-size: 22px;
+        font-size: 20px;
         line-height: 32px;
+        width: 410px;
     }
     .Interface .Section1 button{
         white-space: pre-line;
-        margin-top: 10px;
-        width: 200px;
+        margin-top: 8px;
+        width: 170px;
         padding: 5px;
         font-size: 28px;
         color: #101010;
        background-color: #FFD28E;
     }
+    .Interface .Section1 button:hover{
+        background-color: #101010;
+        color: #ffffff;
+        border-color: #d8911f;
+    }
     .Interface .Section1 label{
+        margin-right: 10px;
         white-space: pre-line;
         font-size: 28px;
     }
     .Interface .Section1 i{
+        margin-right: 10px;
         font-size: 28px;
     }
     .Interface .Section2 .imgsex{
-        justify-content: center;
-        margin-right: 25px;
+        margin-bottom: -10px;
+        margin-top: 40px;
         width: 100%;
         height: auto;
     }
@@ -536,6 +534,7 @@
         background-color: #f2a01e;
     }
     .About .Sex_img img{
+        margin-top: 40px;
         width: 100%;
         height: auto;
         border-radius: 14%;
@@ -587,17 +586,20 @@
         background-color: #d89b38;
     }
     .Blog{
-        margin-top: 40px;
+        margin-top: 50px;
     }
-    
+    .Blog h1{
+        margin-bottom: -35px;
+        text-align: center;
+    }
     .Blog p{
         text-align: justify;
         font-size: 22px;
         line-height: 35px;
-        margin-bottom: -40px;
+        margin-bottom: -100px;
     }
     .Blog .container2{
-        margin-top: 60px;
+        margin-top: 70px;
         justify-content: center;
         text-align: right;
         display: block;
@@ -607,7 +609,7 @@
     .Blog .container2 img{
         width: 100%;
         height: auto;
-        margin-top: 40px;
+        margin-top: 60px;
     }
     .Blog .container2 a{
         text-align: right;
@@ -617,7 +619,3 @@
         
     }
 }
-
-
-
-
