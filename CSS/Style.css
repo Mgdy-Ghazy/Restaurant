@@ -3,6 +3,9 @@
     color: #dfb36c;
     direction: rtl;
 }
+.Main{
+    overflow-x: hidden;
+}
 @media screen and (min-width: 1000px) {
     body{
         font-family: 'Open Sans', sans-serif;
@@ -205,9 +208,8 @@
 
 @media screen and (max-width: 600px) {
     body{
-        padding-right: 15px;
-        padding-left: 15px;
-        overflow-x: hidden;
+        padding-right: 5px;
+        padding-left: 5px;
         width: 400px;
         font-family: 'Open Sans', sans-serif;
     }
@@ -256,7 +258,7 @@
         color: white;
         font-size: 20px;
         line-height: 32px;
-        width: 315px;
+        width: 375px;
     }
     .Interface .Section1 button{
         white-space: pre-line;
@@ -317,7 +319,7 @@
         background-color: #f2a01e;
     }
     .About .Sex_img img{
-        margin-top: 40px;
+        margin-top: 80px;
         width: 100%;
         height: auto;
         border-radius: 14%;
