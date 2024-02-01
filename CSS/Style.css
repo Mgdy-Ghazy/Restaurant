@@ -5,10 +5,7 @@
 }
 @media screen and (min-width: 1000px) {
     body{
-        /* overflow-x: hidden; */
         font-family: 'Open Sans', sans-serif;
-    }
-    .Main{
         padding-right: 70px;
         padding-left: 70px;
     }
@@ -208,14 +205,11 @@
 
 @media screen and (max-width: 600px) {
     body{
+        padding-right: 15px;
+        padding-left: 15px;
         overflow-x: hidden;
         width: 400px;
         font-family: 'Open Sans', sans-serif;
-    }
-    .Main{
-        padding-right: 30px;
-        padding-left: 15px;
-        
     }
     .Heder{
         padding: 10px;
