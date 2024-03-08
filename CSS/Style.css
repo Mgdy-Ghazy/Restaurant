@@ -1,26 +1,30 @@
-*{
-    background-color: #101010;
-    color: #dfb36c;
-    direction: rtl;
-}
 .Main{
     overflow-x: hidden;
 }
 @media screen and (min-width: 1000px) {
     body{
+        background-color: #101010;
+        color: #ff9100;
+        direction: rtl;
         font-family: 'Open Sans', sans-serif;
         padding-right: 70px;
         padding-left: 70px;
     }
     .Heder{
+        background-color: rgba(250, 151, 2, 0.8);
         padding: 10px;
         display: flex;
+        color: #bcccea;
         text-align: center;
+        position: fixed;
+        top: 0;
+        z-index: 1000;
+       
     }
-    .Heder .logo{
+    .Home .Heder .logo{
         padding: 17px;
         font-size: 35px;
-        font-weight: bold;    
+        font-weight: bold;   
     }
     .Heder .Likes{
         margin-right: 220px;
@@ -201,21 +205,80 @@
         font-size: 23px;
         color: azure;
     }
+
+    .H222 {
+        text-align: center;
+        color: #ff9100;
+      }
+      
+      .form-group {
+        margin-bottom: 20px;
+      }
+      
+      .email {
+        display: block;
+        margin-bottom: 5px;
+        color: #ff9100;
+      }
+      
+      input[type="text"],
+      input[type="email"],
+      textarea {
+        width: 100%;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        background-color: #bcccea;
+      }
+      
+      textarea {
+        resize: vertical;
+      }
+      
+      .button222 {
+        display: block;
+        width: 100%;
+        padding: 10px;
+        background-color: #007bff;
+        color: #fff;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+      }
+      
+      .button222:hover {
+        background-color: #eb9705;
+      
+    footer {
+        background-color: #333;
+        color: #fff;
+        text-align: center;
+        padding: 10px 0;
+        position: relative;
+        bottom: 0;
+        width: 100%;
+    }
 }
-
-
-
+}
 
 @media screen and (max-width: 600px) {
     body{
+        background-color: #101010;
+        color: #ff9100;
+        direction: rtl;
         padding-right: 5px;
         padding-left: 5px;
         width: 400px;
         font-family: 'Open Sans', sans-serif;
     }
     .Heder{
+        
+        background-color: rgba(250, 151, 2, 0.8);
         padding: 10px;
-        text-align: right;
+        display: flex;
+        color: #bcccea;
+        text-align: center;
+        
     }
     .Heder .logo{
         font-size: 35px;
@@ -405,5 +468,58 @@
         font-size: 23px;
         color: azure;
         
+    }
+    .H222 {
+        text-align: center;
+        color: #ff9100;
+      }
+      
+      .form-group {
+        margin-bottom: 20px;
+      }
+      
+      .email {
+        display: block;
+        margin-bottom: 5px;
+        color: #ff9100;
+      }
+      
+      input[type="text"],
+      input[type="email"],
+      textarea {
+        width: 100%;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        background-color: #bcccea;
+      }
+      
+      textarea {
+        resize: vertical;
+      }
+      
+      .button222 {
+        display: block;
+        width: 100%;
+        padding: 10px;
+        background-color: #007bff;
+        color: #fff;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+      }
+      
+      .button222:hover {
+        background-color: #eb9705;
+      }
+
+      footer {
+        background-color: #333;
+        color: #fff;
+        text-align: center;
+        padding: 10px 0;
+        position: relative;
+        bottom: 0;
+        width: 100%;
     }
 }
